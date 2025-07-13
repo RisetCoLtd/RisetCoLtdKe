@@ -1,0 +1,535 @@
+/* LETTERHEAD SECTION*/
+
+.wrapper-main {
+  width: 1100px;
+  padding: 10px;
+
+
+}
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  background-color: rgb(122, 73, 12);
+  height: 130px;
+  margin-top: 0px;
+  margin-right: 5%;
+  text-align: center;
+  padding: 0px;
+  border-radius: 2.5px;
+  z-index: 7;
+}
+
+
+
+
+#Heading1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 10px;
+
+
+}
+
+h1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 30px; 
+color: white; 
+text-align: center;
+}
+
+
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 45px; 
+  color: rgb(109, 196, 22); padding-left: 10px; height: 3px;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+
+
+
+
+#logo1 {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 80px;
+  height: 80px;
+  float: inline-end;
+}
+
+/* MENU SECTION */
+
+#Titlebar {
+  display: flex;
+  margin-top: 0px;
+  background-color: rgb(109, 196, 22);
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 2.5px;
+  z-index: 5;
+}
+
+#dropbton1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 0px;
+
+
+}
+
+.buton {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 2px;
+}
+
+.dropmenu {
+  background-color: rgb(109, 196, 22);
+  width: max-content;
+  height: 30px;
+  padding: 5px;
+  border: none;
+
+
+}
+
+.buton {
+  background-color: rgb(109, 196, 22);
+  width: 250px;
+  height: 30px;
+  border: none;
+
+
+}
+
+#Heading2 {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0.5px;
+  margin-left: 20px;
+  color: white;
+  font-size: x-large;
+
+
+
+}
+
+
+.dropmenu {
+  position: relative;
+  display: inline-block;
+  padding-right: 10PX;
+  border-right: 3px solid white;
+
+
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: rgb(122, 73, 12);
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(8, 112, 29, 0.2);
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.dropcontent a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropcontent a:hover {
+  background-color: rgb(109, 196, 22);
+}
+
+.dropmenu:hover .dropcontent {
+  display: block;
+}
+
+.dropmenu:hover .buton {
+  background-color: rgb(109, 196, 22);
+}
+
+
+/* BANNER IMAGES SECTION */
+
+.photo5 {
+  padding-left: 0px;
+  border: 5px solid brown;
+  width: 90%;
+  height: 70vh;
+  margin-top: 10px;
+  margin-left: 4%;
+
+
+}
+
+/* BNNER SECTION TOBE FILLED LATER */
+
+.Slideshow-container {
+  background-color: antiquewhite;
+
+}
+
+/* WELCOME PARAGRAPH SECTION */
+
+#PageTitles {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(109, 196, 22);
+  font-size: 35px;
+  text-align: center;
+}
+
+.photo2 {
+  padding-left: 0px;
+  border: 5px solid brown;
+  display: flex;
+  float: left;
+  margin-right: 20px;
+  width: 400px;
+  height: 200px;
+  margin-left: 4%;
+}
+
+.parag1 {
+  width: 100%;
+  height: 200px;
+  padding-left: 10px;
+  margin-left: 0px;
+  font-size: 23px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.poster1 {
+  display: flex;
+  float: right;
+  margin-left: 20px;
+  margin-right: 4%;
+  width: 250px;
+  height: 200px;
+
+}
+
+/* OUR COURSES MAIN SECTION*/
+
+#coursetitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 7px;
+  padding-bottom: none;
+  color: rgb(117, 14, 14);
+  font-size: 30px;
+}
+
+#coursesubs,
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(152, 13, 13);
+  font-size: 25px;
+  list-style: square;
+
+}
+
+#photo3 {
+  display: flex;
+  float: left;
+  margin-right: 40px;
+  border: 3px solid brown;
+  border-radius: 3px;
+  margin-left: 4%;
+
+}
+
+
+/* HAMBURGER MENU SECTION*/
+
+.burger-menu, 
+.burger-menu-btn {
+display: none;
+}
+
+
+/* MOBILE VERSION SECTION */
+
+@media only screen and (max-width: 600px) {
+
+  /*........trial styles w3...*/
+
+.burger-menu-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url(WebIcons/menu\ button.png), url(WebIcons/close-button-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center left 50px;
+  z-index: 8;
+  margin-top: 100px;
+  margin-left: 30px;
+      
+}
+
+.burger-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 6;
+  background-color: rgb(109, 196, 22);
+  
+}
+
+.burger-menu ul {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  
+  
+ 
+}
+
+.burger-menu ul li {
+  flex-basis: 100%;
+  border-top: 4px solid whitesmoke;
+  list-style: none;
+  margin-right: 30%;
+  border-radius: 100px;
+
+}
+
+.burger-menu ul li:last-child {
+  border-bottom: 4px solid whitesmoke;
+  
+
+}
+
+.burger-menu ul li a {
+  display: block;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+  padding: 25px 0;
+  flex-basis: 100%;
+  text-align: center;
+  
+}
+
+
+/*........trial styles w3...*/
+
+
+
+.wrapper-main {
+  width: 100%;
+  padding: 0px;
+
+
+
+}
+
+.Navbar {
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+ 
+}
+
+#logo1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+
+
+}
+
+#Heading1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 10px;
+
+
+}
+
+h1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 30px; 
+color: white; 
+text-align: center;
+}
+
+
+
+#Titlebar {
+
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  display: none;
+
+}
+
+.dropmenu {
+  position: relative;
+  display: none;
+
+}
+
+.photo5 {
+
+  display: block;
+  width: 90%;
+  height: 30vh;
+  border: 2px solid brown;
+  margin-top: 0%;
+  margin-left: 0px;
+  margin-left: 4%;
+
+
+}
+
+
+
+.Slideshow-container {
+  padding-left: 0px;
+  margin-top: 0%;
+  
+}
+
+#PageTitles {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(109, 196, 22);
+  font-size: 17px;
+  text-align: center;
+  margin-left: 0px;
+  width: 100%;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 17px; 
+  color: rgb(109, 196, 22); padding-left: 10px; height: 3px;
+  padding-bottom: 10px;
+  }
+
+.photo2 {
+  padding-left: 0px;
+  border: 2px solid brown;
+  display: flex;
+  float: left;
+  margin-right: 10px;
+  margin-left: 3%;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 80px;
+}
+
+.poster1 {
+  display: none;
+
+}
+
+.parag1 {
+  width: 95%;
+  height: 1.5;
+  font-size: 14px;
+  padding-bottom: 2px;
+  border-bottom: none;
+
+
+}
+
+#PageTitles {
+  font-size: 20px;
+}
+
+
+#coursetitle {
+  width: 100%;
+  height: 3px;
+  padding-bottom: none;
+  font-size: 18px;
+}
+
+#coursesubs,
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(152, 13, 13);
+  font-size: 12px;
+  list-style: square;
+  width: 100%;
+  padding-bottom: 5px;
+
+}
+
+#photo3 {
+  display: flex;
+  float: left;
+  margin-right: 20px;
+  margin-left: 3%;
+  border: 2px solid brown;
+  border-radius: 3px;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 15px;
+
+}
+
+
+.Slideshow-container {
+  padding-left: 0px;
+}
+
+#footerarea {
+  width: 90%;
+  height: 130px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: none;
+}
+
+.footertitle {
+  height: 50px;
+  font-size: 25px;
+}
+
+
+.footerlist {
+  margin-left: 10%;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+
+.Links {
+  margin-left: 10%;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+}

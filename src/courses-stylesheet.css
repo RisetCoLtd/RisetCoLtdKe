@@ -1,0 +1,100 @@
+
+/* COURSES PAGE*/
+
+.sub-units {
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px; 
+line-height: 40px;
+}
+
+h3 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 30px; 
+color: red; padding-left: 20px; height: 5px;
+text-align: left;
+}
+
+
+
+.mobile-application-links {
+  display: none;
+}
+
+
+#coursesdetailed {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: none;
+  background-color: rgb(249, 245, 241);
+
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 40px; 
+    color: red; 
+    text-align: left;
+    }
+    
+    .Description-page {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    width: 80%;
+    
+    }
+
+   
+
+
+  /* MOBILE VERSION SECTION */
+
+@media only screen and (max-width: 600px) {
+
+
+/* DEPARTMENTS PAGE SECTION*/
+
+.sub-units {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  line-height: 20px;
+ 
+  
+  }
+
+  h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 25px; 
+    color: red; 
+    text-align: center;
+    }
+
+  h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 17px; 
+  padding-left: 5px; height: 0px;
+  padding-bottom: 10px;
+  }
+
+
+.mobile-application-links {
+  display: block;
+}
+
+
+#coursesdetailed {
+  width: 97%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: none;
+
+}
+
+.Description-page {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 14px;
+  
+  }
+
+
+}
